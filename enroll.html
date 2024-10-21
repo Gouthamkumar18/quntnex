@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>/* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        /* Styling the form */
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        
+        /* Input field styling */
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        /* Submit button styling */
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        /* Label and general text styling */
+        form label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        </style>
+</head>
+<body>
+    <form >
+        Name :
+        <input type ="text" placeholder="Enter  Name"/>
+        <br>
+        <br>
+        
+        Date of Birth :
+        <input type ="date" /> 
+        <br>
+        <br>
+        Phone number :
+        <input type ="number" placeholder="Enter  Phone Number"
+        Email ID :
+        <input type ="Email" placeholder="Enter Email id"/>
+        <br>
+        <br>
+        Email ID :
+        <input type ="Email" placeholder="Enter Email id"/>
+        <br>
+        <br>
+        <input type="submit" />
+    </form>
+         
+</body>
+</html>
